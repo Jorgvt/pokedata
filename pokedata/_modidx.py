@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://Jorgvt.github.io',
                 'git_url': 'https://github.com/Jorgvt/pokedata',
                 'lib_path': 'pokedata'},
-  'syms': {'pokedata.scrape': {}}}
+  'syms': { 'pokedata.scrape': {},
+            'pokedata.scrape.images': { 'pokedata.scrape.images.download_img': ( '00_Webscrapping/getting_images.html#download_img',
+                                                                                 'pokedata/scrape/images.py')}}}
