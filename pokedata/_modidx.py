@@ -7,4 +7,8 @@ d = { 'settings': { 'branch': 'main',
                 'lib_path': 'pokedata'},
   'syms': { 'pokedata.scrape': {},
             'pokedata.scrape.images': { 'pokedata.scrape.images.download_img': ( '00_Webscrapping/getting_images.html#download_img',
-                                                                                 'pokedata/scrape/images.py')}}}
+                                                                                 'pokedata/scrape/images.py')},
+            'pokedata.scrape.sprites': { 'pokedata.scrape.sprites.build_df_sprites': ( '00_Webscrapping/getting_sprites.html#build_df_sprites',
+                                                                                       'pokedata/scrape/sprites.py'),
+                                         'pokedata.scrape.sprites.get_sprites': ( '00_Webscrapping/getting_sprites.html#get_sprites',
+                                                                                  'pokedata/scrape/sprites.py')}}}
